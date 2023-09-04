@@ -1,8 +1,9 @@
 ﻿using System;
 
-namespace FreeCourse.Services.Catalog.Dtos
-{
-    public class CourseUpdateDto
+namespace FreeCourse.Services.Catalog.Dtos 
+{ 
+
+    internal class CourseUpdateDto
     {
         public string Id { get; set; }
         public string Name { get; set; }
